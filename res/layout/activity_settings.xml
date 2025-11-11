@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true">
+
+    <!-- 🟧 Header Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="#FF6B35"
+        android:elevation="4dp">
+
+        <!-- Back button -->
+        <ImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@android:drawable/ic_media_previous"
+            android:tint="#FFFFFF"
+            android:contentDescription="Back button"
+            android:layout_marginEnd="12dp" />
+
+        <!-- Header Title -->
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Settings"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- 🧾 Settings Table -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/tableLayoutSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:stretchColumns="1">
+
+                <TableRow>
+                    <TextView
+                        android:text="Setting"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:text="Status"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:textSize="16sp"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Order Notifications"
+                        android:padding="8dp"
+                        android:textColor="#000000" />
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchNotification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Promo Alerts"
+                        android:padding="8dp"
+                        android:textColor="#000000" />
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchPromo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Privacy"
+                        android:padding="8dp"
+                        android:textColor="#000000" />
+                    <Spinner
+                        android:id="@+id/spinnerPrivacy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/privacy_options" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Language"
+                        android:padding="8dp"
+                        android:textColor="#000000" />
+                    <Spinner
+                        android:id="@+id/spinnerLanguage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/language_options" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Theme Mode"
+                        android:padding="8dp"
+                        android:textColor="#000000" />
+                    <RadioGroup
+                        android:id="@+id/radioGroupTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioLight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Light"
+                            android:textColor="#000000"
+                            android:buttonTint="#FF6B35" />
+
+                        <RadioButton
+                            android:id="@+id/radioDark"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dark"
+                            android:textColor="#000000"
+                            android:buttonTint="#FF6B35" />
+                    </RadioGroup>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Default Payment"
+                        android:padding="8dp"
+                        android:textColor="#000000" />
+                    <Spinner
+                        android:id="@+id/spinnerPayment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:entries="@array/payment_options" />
+                </TableRow>
+            </TableLayout>
+
+            <!-- 🚪 Logout Button -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:textColor="#FFFFFF"
+                android:background="#FF6B35"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:padding="12dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

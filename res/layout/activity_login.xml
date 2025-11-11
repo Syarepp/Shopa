@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="?android:colorBackground"
+    tools:context=".LoginActivity">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/shoppa"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Full Name Input (for signup) -->
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_text_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_text_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Confirm Password Input (for signup) -->
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <!-- Login/Signup Button -->
+    <Button
+        android:id="@+id/btnLoginSignup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/login"
+        android:background="@drawable/button_primary"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Switch Mode Text -->
+    <TextView
+        android:id="@+id/tvSwitchMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_signup"
+        android:textColor="?attr/colorPrimary"
+        android:padding="16dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

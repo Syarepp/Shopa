@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Shoppa</string>
+
+    <string name="john_doe">John Doe</string>
+    <string name="regular_member">Regular Member</string>
+    <string name="edit">Edit</string>
+    <string name="user_email">john.doe@example.com</string>
+    <string name="user_bio">Welcome to my Shopee profile! Love shopping for great deals.</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_address">My Address</string>
+    <string name="setting">Setting</string>
+
+    <!-- Content Descriptions -->
+    <string name="back_button">Back Button</string>
+    <string name="settings_button">Settings Button</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="email_icon">Email Icon</string>
+    <string name="edit_icon">Edit Icon</string>
+    <string name="orders_icon">Orders Icon</string>
+    <string name="next_arrow">Next Arrow</string>
+    <string name="address_icon">Address Icon</string>
+
+    <string-array name="privacy_options">
+        <item>Public</item>
+        <item>Friends Only</item>
+        <item>Private</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Bahasa Melayu</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="payment_options">
+        <item>FPX</item>
+        <item>eWallet</item>
+        <item>Cash on Delivery</item>
+    </string-array>
+
+    <!-- New strings for watch functionality -->
+    <string name="watch_image_desc">Watch image</string>
+    <string name="watch_name_default">Watch Name</string>
+    <string name="watch_price_default">$199.99</string>
+    <string name="tap_to_view_add">Tap to View &amp; Add</string>
+    <string name="my_cart">My Cart</string>
+    <string name="total">Total</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="remove">REMOVE</string>
+    <string name="checkout">Checkout</string>
+    <string name="confirm_order">CONFIRM ORDER</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="enter_address">Enter your complete shipping address</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="quantity">Qty: 1</string>
+    <string name="watch_name_placeholder">Watch Name</string>
+    <string name="watch_price_placeholder">$199.99</string>
+    <string name="total_price">Total: $0.00</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="enter_shipping_address">Enter your complete shipping address</string>
+    <string name="city_hint">City</string>
+    <string name="postal_code_hint">Postal Code</string>
+    <string name="browse_models">Browse watch models from Home screen</string>
+    <string name="error_loading_fragment">Error loading fragment</string>
+    <string name="cart_empty">Cart is empty!</string>
+    <string name="fill_all_fields">Please fill in all address fields</string>
+    <string name="order_confirmed">Order confirmed!</string>
+    <string name="item_removed">Item removed from cart</string>
+    <string name="added_to_cart">Added to cart!</string>
+
+    <!-- Watch model names -->
+    <string name="classic_watches">Classic Watches</string>
+    <string name="sport_watches">Sport Watches</string>
+    <string name="luxury_watches">Luxury Watches</string>
+    <string name="smart_watches">Smart Watches</string>
+    <string name="digital_watches">Digital Watches</string>
+    <string name="vintage_watches">Vintage Watches</string>
+    <string name="chronograph_watches">Chronograph Watches</string>
+    <string name="diver_watches">Diver Watches</string>
+
+    <!-- Watch product names -->
+    <string name="classic_leather">Classic Leather</string>
+    <string name="vintage_gold">Vintage Gold</string>
+    <string name="minimalist">Minimalist</string>
+    <string name="sports_pro">Sports Pro</string>
+    <string name="fitness_tracker">Fitness Tracker</string>
+    <string name="diver_watch">Diver Watch</string>
+    <string name="diamond_elite">Diamond Elite</string>
+    <string name="platinum_edition">Platinum Edition</string>
+    <string name="smart_pro">Smart Pro</string>
+    <string name="fitness_band">Fitness Band</string>
+    <string name="standard_watch">Standard Watch</string>
+
+    <!-- Watch descriptions -->
+    <string name="classic_leather_desc">Elegant leather strap watch with timeless design</string>
+    <string name="vintage_gold_desc">Premium gold vintage watch with sapphire crystal</string>
+    <string name="minimalist_desc">Simple and clean design for everyday wear</string>
+    <string name="sports_pro_desc">Waterproof sports watch with stopwatch</string>
+    <string name="fitness_tracker_desc">Smart fitness watch with heart rate monitor</string>
+    <string name="diver_watch_desc">Professional diving watch with 200m water resistance</string>
+    <string name="diamond_elite_desc">Luxury watch with genuine diamonds</string>
+    <string name="platinum_edition_desc">Premium platinum watch with automatic movement</string>
+    <string name="smart_pro_desc">Advanced smartwatch with GPS and notifications</string>
+    <string name="fitness_band_desc">Lightweight fitness tracker with sleep monitoring</string>
+    <string name="standard_watch_desc">Quality timepiece with reliable movement</string>
+
+    <!-- Additional strings for cart and checkout -->
+    <string name="view_all_products">View All Products</string>
+    <string name="todays_deals">Today\'s Deals</string>
+    <string name="all_products">All Products</string>
+    <string name="featured_products">Featured Products</string>
+    <string name="categories">Categories</string>
+    <string name="search_products">Search products…</string>
+    <string name="welcome_shoppa">Welcome to Shoppa!</string>
+    <string name="shoppa_description">Your one-stop shop for all your needs. Enjoy seamless shopping with great deals and fast delivery.</string>
+    <string name="big_sale">Big Sale! Up to 50% Off</string>
+    <string name="limited_offer">Limited time offer. Shop now!</string>
+
+    <!-- Login/Signup & Logout -->
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="prompt_signup">Don\'t have an account? <b>Sign Up</b></string>
+    <string name="prompt_login">Already have an account? <b>Log In</b></string>
+
+    <!-- Login/Signup Errors -->
+    <string name="error_email_required">Email is required.</string>
+    <string name="error_password_required">Password is required.</string>
+    <string name="error_name_required">Full name is required.</string>
+    <string name="error_confirm_password">Please confirm your password.</string>
+    <string name="error_password_mismatch">Passwords do not match.</string>
+    <string name="error_email_exists">This email is already registered.</string>
+    <string name="error_invalid_credentials">Invalid email or password.</string>
+
+</resources>

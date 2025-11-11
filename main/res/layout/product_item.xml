@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/banner_background"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="#F0F0F0" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="14sp"
+        android:textColor="#333333"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$99.99"
+        android:textSize="16sp"
+        android:textColor="#FF6B35"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/productDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20% OFF"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF4444"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="2dp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
